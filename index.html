@@ -1,83 +1,183 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifólio</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- CSS Bootstrap icons -->
-    <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
-    <!-- CSS Animate -->
-    <link rel="stylesheet" href="css/animate.min.css" />
-  </head>
 
-  <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
-      <div class="container">
-        <a class="navbar-brand fs-2 fw-bold" href="#">ALVINO</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+  <title>Portifólio</title>
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- CSS Bootstrap icons -->
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css" />
+  <!-- CSS Animate -->
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#conteudo"
-          aria-controls="conteudo"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold" href="#">ALVINO</a>
 
-        <div class="collapse navbar-collapse" id="conteudo">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
-            <li class="nav-item">
-              <a class="nav-link fs-4" href="#">Sobre</a>
-            </li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#conteudo"
+        aria-controls="conteudo" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <li class="nav-item">
-              <a class="nav-link fs-4" href="#">Educaçâo</a>
-            </li>
+      <div class="collapse navbar-collapse" id="conteudo">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#sobre">Sobre</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link fs-4" href="#">Experiência</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#">Educação</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link fs-4" href="#">Certificados</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#">Experiência</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link fs-4" href="#">Habilidades</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#">Certificados</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link fs-4" href="#">Projetos</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#habilidades">Habilidades</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link fs-4" href="#">Contato</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#">Projetos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="container">
+    <div class="d-flex justify-content-center align-self-center align-items-center row">
+      <div class="col-sm-12 col-6 col-md-12 col-lg-6 text-light">
+        <div class="text-center">
+          <h1 class="animate__animated animate__fadeIn">
+            Olá, eu sou o <b>CAIO ALVINO</b>
+          </h1>
+          <h2>Eu Sou um <b>PROGRAMADOR</b></h2>
+          <p class="fw-bold fs-3">Bem vindo ao meu PORTIFÓLIO</p>
         </div>
       </div>
-    </nav>
-
-    <section id="" class="container">
-      <div class="mt-4 ms-3 text-light">
-        <h1 class="animate__animated animate__fadeIn">
-          Olá, eu sou o <b>CAIO ALVINO</b> 👋
-        </h1>
-        <h2>Eu Sou um <b>PROGRAMADO</b></h2>
-        <p class="fw-bold fs-3">Bem vindo ao meu PORTIFÓLIO</p>
+      <div class="col-sm-12 col-md-12 col-lg-5 text-light">
+        <img src="./assets/computador.webp" alt="PC-3D" class="img-fluid" />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contato"></section>
+  <hr />
 
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+  <section id="sobre" class="container">
+    <div id="div-sobre" class="text-light">
+      <p class="mb-1">Visão Geral</p>
+      <h2>Sobre Mim</h2>
+      <div class="mt-3 text-center">
+        <h3 class="mt-5">Gosto de Aprender</h3>
+        <p class="mx-3">
+          Sou formado em Análise e Desenvolvimento de Sistemas e atuo
+          atualmente como desenvolvedor. Trabalho principalmente com PHP,
+          utilizando Laravel 11 para construir sistemas robustos. Tenho
+          direcionado meus esforços para automações com inteligência
+          artificial e estou estudando engenharia de prompts para aprimorar a
+          interação com essas tecnologias.
+        </p>
+      </div>
+  </section>
+
+  <section id="educacao" class="container">
+    <div id="div-sobre" class="text-light">
+      <div class="mt-3 text-center">
+        <p class="fw-bold m-1">O QUE ESTUDEI ATÈ AGORA</p>
+        <h2 class="m-1">Educação</h2>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="container">
+    <div id="div-habilidades" class="text-light">
+      <div class="mt-5 pt-5">
+        <h3 class="m-1">Tecnologias e Frameworks</h3>
+        <p class="m-1 fw-bold">Linguagens:</p>
+        <ul class="list-group list-group-horizontal d-flex justify-content-evenly mt-3">
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre php"
+            type="button">
+            <img src="./assets/php.png" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre html"
+            type="button">
+            <img src="./assets/html-5.png" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre css"
+            type="button">
+            <img src="./assets/css-3.png" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre python"
+            type="button">
+            <img src="./assets/python.png" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre javascript"
+            type="button">
+            <img src="./assets/js.png" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre node"
+            type="button">
+            <img src="./assets/node-js.png" alt="" class="img-fluid icons-ling">
+          </li>
+        </ul>
+        <p class="mt-5 fw-bold">Frameworks:</p>
+        <ul class="list-group list-group-horizontal d-flex justify-content-evenly mt-3">
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre laravel"
+            type="button">
+            <img src="./assets/laravel-brands-solid.svg" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre bootstrap"
+            type="button">
+            <img src="./assets/bootstrap.png" alt="" class=" img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre tailwind"
+            type="button">
+            <img src="./assets/Tailwind CSS.png" alt="" class="img-fluid icons-ling">
+          </li>
+        </ul>
+        <p class="mt-5 fw-bold">Ferramentas:</p>
+        <ul class="list-group list-group-horizontal d-flex justify-content-evenly mt-3">
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre chatgpt"
+            type="button">
+            <img src="./assets/chatgpt.png" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre deepseek"
+            type="button">
+            <img src="./assets/deepseek.png" alt="" class=" img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre claude"
+            type="button">
+            <img src="./assets/claude.png" alt="" class="img-fluid icons-ling">
+          </li>
+          <li class="list-group-item rounded-pill bg-transparent text-light border-0 linguagens-sobre composer"
+            type="button">
+            <img src="./assets/composer.png" alt="" class="img-fluid icons-ling">
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="contato"></section>
+
+  <link rel="stylesheet" href="css/style.css?v=1.0" />
+  <script src="js/script.js?v=1.0"></script>
+</body>
+
 </html>

@@ -2,6 +2,91 @@
     box-sizing: border-box;
 }
 
+.navbar-brand {
+    font-family: 'Courier New', monospace;
+    /* Destaque visual */
+}
+
 body {
-    padding-top: 80px;
+    margin-top: 230px;
+}
+
+#div-sobre {
+    margin-top: 210px;
+}
+
+.linguagens-sobre {
+    box-shadow: none;
+    transition: all .2s ease-out;
+}
+
+.php:hover {
+    box-shadow: 0 20px 40px #8db7ff;
+    transform: translateY(-15px);
+}
+
+.html:hover {
+    box-shadow: 0 20px 40px #fc480b;
+    transform: translateY(-15px);
+}
+
+.css:hover {
+    box-shadow: 0 20px 40px #2196f3;
+    transform: translateY(-15px);
+}
+
+.python:hover {
+    box-shadow: 0 20px 40px #78e0eb;
+    transform: translateY(-15px);
+}
+
+.javascript:hover {
+    box-shadow: 0 20px 40px #ffdf00;
+    transform: translateY(-15px);
+}
+
+
+.node:hover {
+    box-shadow: 0 20px 40px #58a845;
+    transform: translateY(-15px);
+}
+
+.laravel:hover {
+    box-shadow: 0 20px 40px #f23a2e;
+    transform: translateY(-15px);
+}
+
+.bootstrap:hover {
+    box-shadow: 0 20px 40px #5e3b7f;
+    transform: translateY(-15px);
+}
+
+.tailwind:hover {
+    box-shadow: 0 20px 40px #38bdf8;
+    transform: translateY(-15px);
+}
+
+.chatgpt:hover {
+    box-shadow: 0 20px 40px #f7f7f7;
+    transform: translateY(-15px);
+}
+
+.deepseek:hover {
+    box-shadow: 0 20px 40px #4D6BFE;
+    transform: translateY(-15px);
+}
+
+.claude:hover {
+    box-shadow: 0 20px 40px #D97757;
+    transform: translateY(-15px);
+}
+
+.composer:hover {
+    box-shadow: 0 20px 40px #f7f7f7;
+    transform: translateY(-15px);
+}
+
+.icons-ling {
+    height: 40px;
+    width: 40px;
 }
